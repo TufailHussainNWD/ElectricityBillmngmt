@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid grey;
+}
+
+.inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+a ,li{
+    display: inline-block;
+    padding-right: 9px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.main-title {
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+span {
+    color: blue;
+}
+
+.inner-content-wrapper {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin: 30px;
+}
+
+.left-container {
+   font-size: 2rem;
+   width: 50%;
+   line-height: 1.2;
+}
+
+.right-container {
+    width: 50%;
+}
+
+.right-container img {
+    width: 100%;
+}
+
+.hero-subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #747474;
+}
+
+.card-container {
+    width: 100%;
+    height: auto;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;    
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.card-title {
+    margin-top: 30px;
+}
+
+.card-description,
+br,
+center {
+    margin-top: 10px;
+    color: #747474;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 16px;
+}
+
+.card a {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    
+}
+
+footer p {
+    color: #747474;    
+}
